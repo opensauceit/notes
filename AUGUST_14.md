@@ -9,3 +9,16 @@ The aim was to create the fastest and most streamlined way for people to learn N
 #Architecture
 
 Front-end has a list of courses available for the student to take. It holds the notes and instructions and an area where the student can write the code. The user's input is passed on to middleware through the API, which sanitise some of it and hands it to the backend. The backend executes the code in a docker container (spawned at execution time) and returns success or fail as the output to the middleware. 
+
+#What has been achieved
+Docker takes arguments, runs and outputs
+Front-end design
+API middleware 
+
+#What needs to be done
+Sanitizing
+Glue things together
+Tests
+Bring to prod
+
+See you next month
